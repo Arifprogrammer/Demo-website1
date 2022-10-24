@@ -25,6 +25,7 @@ body{
 }
 .firstdiv>p{
     color: rgb(129, 123, 123);
+    margin-bottom: 30px;
 }
 .firstdiv>img{
     width: 100%;
