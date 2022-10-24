@@ -60,17 +60,27 @@ body{
     box-shadow: 10px 10px 40px gray;
     height: 60%;
     padding-left: 40px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 #leftborder1{
-    border-left: 8px solid transparent;
-    border-image: linear-gradient(180deg, rgb(0, 140, 255), rgb(0, 217, 255));
-    border-image-slice: 1;
+    border-left: 12px solid transparent;
+    /* border-image: linear-gradient(180deg, rgb(0, 140, 255), rgb(0, 217, 255));
+    border-image-slice: 1; */    
+    /* -----------------------eikhane border-image a radius kaj kore na,tai background-image diye kaj kora hoise------------------ */
+    background-image: linear-gradient(white,white),
+    linear-gradient(red,blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
 #leftborder2{
-    border-left: 8px solid;
-    border-image: linear-gradient(180deg, rgb(140, 0, 255), rgb(234, 0, 255));
-    border-image-slice: 1;
+    border-left: 12px solid transparent;
+    /* border-image: linear-gradient(180deg, rgb(140, 0, 255), rgb(234, 0, 255));
+    border-image-slice: 1; */
+    /* -----------------------eikhane border-image a radius kaj kore na,tai background-image diye kaj kora hoise------------------ */
+    background-image: linear-gradient(white,white),
+    linear-gradient(red,blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
 h5{
     text-align: center;
